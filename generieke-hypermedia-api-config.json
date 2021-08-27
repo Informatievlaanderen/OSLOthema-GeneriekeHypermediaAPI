@@ -1,12 +1,12 @@
 {
   "naam": "Generieke Hypermedia API",
-  "rapport" : "",
-  "verantwoordelijke_organisatie": "Agentschap Informatie Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO002949",
+  "rapport": "",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
   "publicatiedatum": "2019-02-07",
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Technische standaard",
-  "beschrijving" : "generieke-hypermedia-api.md",
+  "beschrijving": "generieke-hypermedia-api.md",
   "specificatiedocument": [
     {
       "naam": "Generieke Hypermedia API specificatie",
