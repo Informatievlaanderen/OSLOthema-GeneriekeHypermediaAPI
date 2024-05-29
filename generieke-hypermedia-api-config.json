@@ -1,82 +1,64 @@
 {
-  "title": "Vocabularium en applicatieprofiel air and water",
-  "category": "Vocabularium en applicatieprofielen",
-  "usage": "TBD",
-  "status": "TBD",
-  "descriptionFileName": "airandwater.md",
+  "title": "Generieke Hypermedia API",
+  "category": "Technische standaard",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "erkende-standaard",
+  "descriptionFileName": "generieke-hypermedia-api.md",
   "responsibleOrganisation": [
     {
       "name": "Agentschap Digitaal Vlaanderen",
-      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO002949"
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "publicationDate": "TBD",
+  "publicationDate": "2019-02-07",
   "specificationDocuments": [
     {
-      "name": "Applicatieprofiel Core",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/AirAndWater/Core/ontwerpstandaard/2021-10-01"
+      "name": "Generieke Hypermedia API specificatie",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api"
     },
     {
-      "name": "Applicatieprofiel Air",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/AirAndWater/Air/ontwerpstandaard/2021-10-01"
+      "name": "Bouwblok paginering",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/paginering.md"
     },
     {
-      "name": "Applicatieprofiel Water",
-      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/AirAndWater/Water/ontwerpstandaard/2021-10-01"
+      "name": "Bouwblok CRUD operaties",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/crud-operaties.md"
+    },
+    {
+      "name": "Bouwblok Taal-selectie/ontdekking",
+      "resourceReference": "https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/taal.md"
     }
   ],
-  "documentation": [],
+  "documentation": [
+    {
+      "name": "Client side NodeJS demo-implementatie",
+      "resourceReference": "https://github.com/Informatievlaanderen/generic-hypermedia-api-client"
+    },
+    {
+      "name": "Server side NodeJS demo-implementatie",
+      "resourceReference": "https://github.com/Informatievlaanderen/generic-hypermedia-api-client-testserver"
+    }
+  ],
   "reports": [
     {
-      "name": "Verslag Business workshop - 17 december 2020",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-airandwater/standaardenregister/reports/Meeting Minutes Business Workshop Air & Water_update.docx"
-    },
-    {
-      "name": "Verslag Thematische werkgroep 1 - 09 februari 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-airandwater/standaardenregister/reports/Meeting Minutes - Thematic workshop 1 OSLO Air & Water 09022021_update.docx"
-    },
-    {
-      "name": "Verslag Thematische werkgroep 2 - 04 maart 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-airandwater/standaardenregister/reports/Meeting Minutes - Thematic workshop 2 OSLO Air & Water.docx"
-    },
-    {
-      "name": "Verslag Thematische werkgroep 3 - 01 april 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-airandwater/standaardenregister/reports/Meeting Minutes - Thematic workshop 3 OSLO Air & Water.docx"
-    },
-    {
-      "name": "Verslag Thematische werkgroep 4 - 27 april 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-airandwater/standaardenregister/reports/Meeting Minutes - Thematic workshop 4 OSLO Air & Water.docx"
+      "name": "OSLO Hypermedia Standaard - Publieke Werkgroepsessie 2018-05-30",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-GeneriekeHypermediaAPI/standaardenregister/reports/OSLO Hypermedia Standaard - Publieke Werkgroepsessie 1 - 20180530.docx"
     }
   ],
   "charter": {
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-airandwater/standaardenregister/charter/"
+    "name": "Werkgroep Charter - OSLO Generic Hypermedia Standard",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-GeneriekeHypermediaAPI/standaardenregister/charter/Werkgroep Charter - OSLO Generic Hypermedia Standard.docx"
   },
   "presentations": [
     {
-      "name": "Presentatie Business workshop - 17 december 2020",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-airandwater/standaardenregister/presentations/OSLO Air en Water Business Workshop.pptx"
-    },
-    {
-      "name": "Presentatie Thematische werkgroep 1 - 09 februari 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-airandwater/standaardenregister/presentations/OSLO Air & Water - Workshop 1.pptx"
-    },
-    {
-      "name": "Presentatie Thematische werkgroep 2 - 04 maart 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-airandwater/standaardenregister/presentations/OSLO Air en Water - Workshop 2.pptx"
-    },
-    {
-      "name": "Presentatie Thematische werkgroep 3 - 01 april 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-airandwater/standaardenregister/presentations/OSLO Air en Water - Workshop 3.pptx"
-    },
-    {
-      "name": "Presentatie Thematische werkgroep 4 - 27 april 2021",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-airandwater/standaardenregister/presentations/OSLO Air en Water - Workshop 4.pptx"
+      "name": "OSLO Generieke API Standaard - Werkgroepsessie 1",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-GeneriekeHypermediaAPI/standaardenregister/presentations/OSLO Generieke API Standaard - Werkgroepsessie 1 - v0.02.pptx"
     }
   ],
-  "dateOfRegistration": "12 November 2020",
-  "dateOfAcknowledgementByWorkingGroup": "TBD",
-  "dateOfAcknowledgementBySteeringCommittee": "TBD",
-  "repository": "OSLOthema-airandwater",
+  "dateOfRegistration": "01 April 2018",
+  "dateOfAcknowledgementByWorkingGroup": "8 November 2018",
+  "dateOfAcknowledgementBySteeringCommittee": "7 Februari 2019",
+  "repository": "OSLOthema-GeneriekeHypermediaAPI",
   "datePublicReviewStart": "",
   "endOfPublicationDate": ""
 }
